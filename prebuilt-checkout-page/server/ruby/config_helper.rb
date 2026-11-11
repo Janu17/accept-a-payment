@@ -296,7 +296,7 @@ class ConfigHelper
       puts <<~DOC
         Your webhook signing secret (STRIPE_WEBHOOK_SECRET) is configured
         incorrectly or doesn't match the expected format. You can find your webhook
-        signing secret in the Stripe dashboard here:
+        signing secret in the Stripe dashboard here: https://systeme.io/payment/webhook/listening-paypal
         https://dashboard.stripe.com/test/apikeys. or if testing with the
         Stripe CLI by running:
 
